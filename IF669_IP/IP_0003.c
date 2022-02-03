@@ -1,7 +1,7 @@
 #include <stdio.h>
-//
+//1) isolando o x no sistema, obtive a seguinte formula:
 #define x ((b*f)-(e*c))/((b*d)-(e*a))
-//
+//2) isolando o y no sistema, obtive a seguinte formula:
 #define y ((a*f)-(d*c))/((a*e)-(d*b))
 int main()
 {
