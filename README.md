@@ -1,2 +1,2 @@
-# Engenharia_da_Computação_UFPE
+# Engenharia da Computação - UFPE
 Repositório dedicado a atividades da faculdade.
