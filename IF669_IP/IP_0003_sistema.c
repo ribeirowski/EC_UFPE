@@ -27,6 +27,3 @@ int main()
     printf("y = %.2f\n", y);
     return 0;
 }
-
-
-
