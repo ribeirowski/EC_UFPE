@@ -1,21 +1,25 @@
 #include <stdio.h>
+//
 #define x ((b*f)-(e*c))/((b*d)-(e*a))
+//
 #define y ((a*f)-(d*c))/((a*e)-(d*b))
 int main()
 {
     float a,b,c,d,e,f;
-    printf("-----------------------------\n");
-    printf("1) Digite o valor de A: ");
+    printf("-----------------------------------------------------\n");
+    printf("Calculando o sistema: 'ax + by = c' e 'dx + ey = f': \n");
+    printf("-----------------------------------------------------\n");
+    printf("1) Digite o valor de a: ");
     scanf("%f", &a);
-    printf("2) Digite o valor de B: ");
+    printf("2) Digite o valor de b: ");
     scanf("%f", &b);
-    printf("3) Digite o valor de C: ");
+    printf("3) Digite o valor de c: ");
     scanf("%f", &c);
-    printf("4) Digite o valor de D: ");
+    printf("4) Digite o valor de d: ");
     scanf("%f", &d);
-    printf("5) Digite o valor de E: ");
+    printf("5) Digite o valor de e: ");
     scanf("%f", &e);
-    printf("6) Digite o valor de F: ");
+    printf("6) Digite o valor de f: ");
     scanf("%f", &f);
     printf("------------------------------\n");
     printf("O resultado do sistema e:\n");

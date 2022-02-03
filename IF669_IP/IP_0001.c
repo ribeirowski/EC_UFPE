@@ -1,12 +1,18 @@
 #include <stdio.h>
-#define mm_hh tMin/60
-#define novo_hh (hh+mm_hh)%24
-#define mm_mm tMin-(60*mm_hh)
-#define novo_mm mm+mm_mm
+//
+#define mm_hh (tMin/60)
+//
+#define novo_hh ((hh+mm_hh)%24)
+//
+#define mm_mm (tMin-(60*mm_hh))
+//
+#define novo_mm (mm+mm_mm)
 int main()
 {
     int hh, mm, tMin;
-    //printf("--------------------------------------\n");
+    printf("------------------------------------------\n");
+    printf("Calculando uma nova hora: \n");
+    printf("------------------------------------------\n");
     printf("- Insira a hora (Formato 24h): ");
     scanf("%i", &hh);
     printf("- Insira os minutos (de 0 a 59 min): ");
