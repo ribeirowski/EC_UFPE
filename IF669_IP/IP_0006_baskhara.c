@@ -15,13 +15,13 @@ int main() {
         printf("\nEssa nao e uma equacao do 2 grau valida, tente novamente.\n");
         return 0;
         }
-        if(n1!=0,delta>0){
+        if(n1!=0 && delta>0){
         printf("\nA equacao tem duas raizes reais, que sao: %.2f e %.2f.\n", equacao_x1, equacao_x2);
         }
-        if(n1!=0,delta==0){
+        if(n1!=0 && delta==0){
         printf("\nA equacao tem apenas uma raiz real: %.2f.\n", equacao_x1);
         }
-        if(n1!=0,delta<0){
+        if(n1!=0 && delta<0){
         printf("\nInfelizmente a equacao nao tem nenhuma raiz real :(\n");
         }
     return 0;
