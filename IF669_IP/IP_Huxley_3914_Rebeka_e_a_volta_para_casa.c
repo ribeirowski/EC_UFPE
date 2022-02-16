@@ -1,7 +1,4 @@
 #include <stdio.h>
-#include <string.h>
-#include <math.h>
-#include <stdlib.h>
 
 int main(){
     int premio, soma1, p1, p2, p3, reb=3, resto;
@@ -69,14 +66,9 @@ int main(){
             if (resto>=3)
             {
                 char letra1, letra2, letra3;
-                //int  soma_das_letras;
                 scanf("%s", &letra1);
                 scanf("%s", &letra2);
                 scanf("%s", &letra3);
-                //letra1 = (letra1 - 96);
-                //letra2 = (letra2 - 96);
-                //letra3 = (letra3 - 96);
-                //soma_das_letras = (letra1 + letra2 + letra3);
                 printf("%d\n", ((letra1-96)+(letra2-96)+(letra3-96)));
             }
             if (resto>=3 && reb>=7)
