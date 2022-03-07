@@ -19,15 +19,6 @@ int main(){
     for(i=2; i<tam_seq; i++){
         vet_fib[i] = vet_fib[i-1] + vet_fib[i-2];
     }
-    
-    /*for(i=0;i<tam_seq;i++){
-        printf("%d ", vet_fib[i]);
-    }
-    printf("\n");
-    for(i=0;i<j;i++){
-        printf("%d ", vet[i]);
-    }
-    printf("\n");*/
 
     for(i=2; i<tam_seq; i++){
         if(vet[i]!=vet_fib[i]){

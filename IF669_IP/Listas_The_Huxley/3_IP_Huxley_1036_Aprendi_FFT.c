@@ -18,7 +18,7 @@ int main(){
             for (i = n + m; i >= 0; i = i - 1) 
                 printf("% d", pq[i]);
         //}
-        putchar('\n');
+        printf("\n");
         k++;
     }
     return 0;
