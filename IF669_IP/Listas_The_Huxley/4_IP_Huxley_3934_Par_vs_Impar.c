@@ -1,25 +1,67 @@
-#include<stdio.h>
-#include<string.h>
+#include <stdio.h>
+#include <string.h>
+
 int main(){
-
-    int TAM, i;
     
-    scanf("%d", &TAM);
+    int tam, i=0, j=0, k=0, l=0, par=0, impar=0, soma;
 
-    int TAM_matriz = (TAM*TAM);
+    scanf("%d", &tam);
+    
+    int matriz[tam][tam], tam_total = tam*tam;
 
-    char matriz[TAM_matriz+1][31];
-
-    for(i=0; i<TAM_matriz+1; i++){
-        gets(matriz[i]);
+    char nome[tam_total][31];
+    
+    for(i=0;i<tam*tam;i++){
+        scanf(" %s", nome[i]);
     }
-
-    for(i=0; i<TAM_matriz+1; i++){
-        printf("%s", matriz[i]);
-        if(i<TAM_matriz){
-            printf("\n");
+    
+    i=0;
+    
+    for(j=0;j<tam;j++){
+        for(k=0;k<tam;k++){
+            if((j+k)%2==0){
+                soma=0;
+                for(l=0;nome[i][l]!='\0';l++){
+                    if(l%2==0){
+                        soma+=nome[i][l];
+                    }
+                }
+                matriz[j][k]=soma;
+            }
+            else{
+                soma=0;
+                for(l=0;nome[i][l]!='\0';l++){
+                    if(l%2!=0){
+                        soma+=nome[i][l];
+                    }
+                }
+                matriz[j][k]=soma;
+            }
+            i++;
         }
     }
-
+    
+    for(j=0;j<tam;j++){
+        for(k=0;k<tam;k++){
+            if((j+k)%2==0){
+                par+=matriz[j][k];
+            }
+            else{
+                impar+=matriz[j][k];
+            }
+        }
+    }
+    
+    if(par==impar){
+        printf("Tivemos um empate em %d pontos!", par);
+    }
+    else if(par>impar){
+        printf("Os pares venceram com %d pontos!", par);
+    }
+    else{
+        printf("Os impares venceram com %d pontos!", impar);
+    }
+    
+    
     return 0;
 }
