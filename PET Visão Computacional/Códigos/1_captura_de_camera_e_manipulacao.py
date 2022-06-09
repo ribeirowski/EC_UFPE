@@ -57,7 +57,7 @@ if webCam.isOpened():
         cv2.imshow('Red', cv2.merge([zeros, zeros, red]))
 
     # Se a tecla 27 (ESC) for pressionada, um 'break' é acionado e o programa saí do ciclo:
-        if cv2.waitKey(5) == 27:
+        if cv2.waitKey(1) == 27:
             break
 
     # Criar arquivo com a imagem original:
