@@ -17,7 +17,6 @@ d) em azul;
 """
 
 # Primeiro de tudo devo importar as bibliotecas necessárias: numpy (np) e opencv-phyton (cv2):
-from cv2 import REDUCE_MAX
 import numpy as np
 import cv2
 
@@ -45,13 +44,13 @@ if webCam.isOpened():
     # Divisão dos canais de cores BGR na imagem mostrada pela webcam, eles se dividem em 3 novos arrays para cada cor separada:
         (blue, green, red) = cv2.split(frame)
 
-    # Exibindo a imagem que a webcam está reproduzindo apenas com a cor azul:
+    # Exibindo a imagem que a webcam está reproduzindo isolando o canal de cor azul:
         cv2.imshow('Blue', blue)
 
-    # Exibindo a imagem que a webcam está reproduzindo apenas com a cor verde:
+    # Exibindo a imagem que a webcam está reproduzindo isolando o canal de cor verde:
         cv2.imshow('Green', green)
 
-    # Exibindo a imagem que a webcam está reproduzindo apenas com a cor vermelha:
+    # Exibindo a imagem que a webcam está reproduzindo isolando o canal de cor vermelha:
         cv2.imshow('Red', red)
 
     # Se a tecla 27 (ESC) for pressionada, um 'break' é acionado e o programa saí do ciclo:
@@ -64,13 +63,13 @@ if webCam.isOpened():
     # Criar arquivo com a imagem em escala de cinza:
     cv2.imwrite("imagens/Semana2/Exercicio1/2_webCam_Gray.png", cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY))
 
-    # Criar arquivo com a imagem azul:
+    # Criar arquivo da imagem apenas com o canal de cor azul:
     cv2.imwrite("imagens/Semana2/Exercicio1/2_webCam_Blue.png", blue)
 
-    # Criar arquivo com a imagem verde:
+    # Criar arquivo da imagem apenas com o canal de cor verde:
     cv2.imwrite("imagens/Semana2/Exercicio1/2_webCam_Green.png", green)
 
-    # Criar arquivo com a imagem vermelha:
+    # Criar arquivo da imagem apenas com o canal de cor vermelha:
     cv2.imwrite("imagens/Semana2/Exercicio1/2_webCam_Red.png", red)
 
 # Encerrando a conexão com a webcam:
