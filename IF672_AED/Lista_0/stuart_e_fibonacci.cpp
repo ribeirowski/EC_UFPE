@@ -1,4 +1,6 @@
-#include <stdio.h>
+#include <iostream>
+
+using namespace std;
 
 int fibonacci(int x){
     int sum, sec = 1, trd = 1;
@@ -12,12 +14,9 @@ int fibonacci(int x){
 
 int main() {
     int n;
-
-    scanf("%d", &n);
-
+    cin >> n;
     if(n == 1){
-        printf("%d\n", 0);
-    } else printf("%d\n", fibonacci(n));
-
+        cout << "0";
+    } else cout << fibonacci(n);
     return 0;
 }

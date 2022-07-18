@@ -1,16 +1,16 @@
-#include <stdio.h>
+#include <iostream>
+
+using namespace std;
 
 int par_ou_impar(int x){
     if(x % 2 == 0){
-        printf("Par\n");
-    } else printf("Impar\n");
+        cout << "Par";
+    } else cout << "Impar";
 }
 
 int main() {
     int num;
-    scanf("%d", &num);
-    
+    cin >> num;
     par_ou_impar(num);
-
     return 0;
 }
