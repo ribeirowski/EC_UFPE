@@ -4,6 +4,6 @@ Repositório dedicado a atividades da faculdade:
 <ul>
   <li><a href="https://github.com/ribeirowski/EC_UFPE/tree/main/IF672_AED"> IF672 - Algoritmos e Estruturas de Dados</a></li>
   <li><a href="https://github.com/ribeirowski/EC_UFPE/tree/main/IF669_IP"> IF669 - Introdução a Programação</a></li>
-  <li><a href="https://github.com/ribeirowski/EC_UFPE/tree/main/PET%20Vis%C3%A3o%20Computacional"> PET - Visão Computacional</a></li>
+  <li><a href="https://github.com/ribeirowski/EC_UFPE/tree/main/PET_Visao_Computacional"> PET - Visão Computacional</a></li>
   
 </ul>
