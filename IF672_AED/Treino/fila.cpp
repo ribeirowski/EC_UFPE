@@ -36,19 +36,19 @@ void addFila(int valor, Fila *fila){
 }
 
 int removeFila(Fila *fila){
-    No *head = fila->head;
+    No *first = fila->head;
     int valor;
-    if(head != NULL){
-        fila->head = head->next;
-        head->next = NULL;
-        valor = head->valor;
-        free(head);
+    if(first != NULL){
+        fila->head = first->next;
+        first->next = NULL;
+        valor = first->valor;
+        free(first);
         if(fila->head == NULL){
             fila->tail = NULL;
         }
         return valor;
     } else{
-        cout << "Fila vazia\n";
+        cout << "Fila vazia" << endl;
         return 0;
     }
     fila->tam--;
@@ -62,14 +62,14 @@ void printFila(Fila *fila){
             no = no->next;
         }
     } else{
-        cout << endl << "Fila vazia\n";
+        cout << endl << "Fila vazia" << endl;
         return;
     }
 }
 
 int main(){
     int qtd, valor;
-    cout << "Digite a quantidade:" << endl;
+    cout << "Digite a quantidade: ";
     cin >> qtd;
     Fila *fila = (Fila*) malloc(sizeof(Fila));
     if(fila == NULL){
