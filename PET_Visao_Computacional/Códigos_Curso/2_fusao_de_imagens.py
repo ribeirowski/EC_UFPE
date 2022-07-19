@@ -34,12 +34,12 @@ def on_trackbar(valor):
     cv2.imshow("Eniotto", blend)
 
     # Criar arquivo para cada imagem gerada (as imagens Eniotto0.png e Eniotto10.png são as imagens originais):
-    cv2.imwrite(f"imagens/Semana2/Exercicio2/Eniotto{valor}.png", blend)
+    cv2.imwrite(f"C:/Users/enior/Desktop/Github/EC_UFPE/PET_Visao_Computacional/imagens/Semana2/Exercicio2/Eniotto{valor}.png", blend)
 
 
 # Fazendo a leitura das imagens que estão no meu arquivo:
-enio = cv2.imread("Imagens/enio.jpg", 1)
-otto = cv2.imread("Imagens/otto.jpg", 1)
+enio = cv2.imread("C:/Users/enior/Desktop/Github/EC_UFPE/PET_Visao_Computacional/imagens/enio.jpg", 1)
+otto = cv2.imread("C:/Users/enior/Desktop/Github/EC_UFPE/PET_Visao_Computacional/imagens/otto.jpg", 1)
 
 # Para criar uma trackbar, primeiro tenho que definir o nome da janela em que ele será criado:
 cv2.namedWindow("Eniotto")

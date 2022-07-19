@@ -18,7 +18,7 @@ from matplotlib import pyplot as plt
 import numpy as np
 import cv2 as cv
 
-theRock = cv.imread("imagens/therock.jpg", 0)
+theRock = cv.imread("C:/Users/enior/Desktop/Github/EC_UFPE/PET_Visao_Computacional/imagens/therock.jpg", 0)
 
 limiar1 = 30
 limiar2 = 150
@@ -45,7 +45,7 @@ plt.xticks([]), plt.yticks([])
 
 plt.suptitle("Limiarização e Binarização", fontsize=20)
 
-plt.savefig("imagens/Semana3/Exercício3/Limiarização_e_Binarização.png", dpi=200)
+plt.savefig("C:/Users/enior/Desktop/Github/EC_UFPE/PET_Visao_Computacional/imagens/Semana3/Exercício3/Limiarização_e_Binarização.png", dpi=200)
 
 plt.show()
 

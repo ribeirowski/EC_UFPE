@@ -14,7 +14,7 @@ from matplotlib import pyplot as plt
 import numpy as np
 import cv2 as cv
 
-theRock = cv.cvtColor(cv.imread("imagens/therock.jpg", 1), cv.COLOR_BGR2RGB)
+theRock = cv.cvtColor(cv.imread("C:/Users/enior/Desktop/Github/EC_UFPE/PET_Visao_Computacional/imagens/therock.jpg", 1), cv.COLOR_BGR2RGB)
 
 (blue, green, red) = cv.split(theRock)
 
@@ -72,7 +72,7 @@ final = plt.gcf()
 
 final.set_size_inches(13, 7)
 
-plt.savefig("imagens/Semana3/Exercício1/Filtros_Passa_Baixa.png", dpi=199)
+plt.savefig("C:/Users/enior/Desktop/Github/EC_UFPE/PET_Visao_Computacional/imagens/Semana3/Exercício1/Filtros_Passa_Baixa.png", dpi=199)
 
 plt.show()
 
