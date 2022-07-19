@@ -15,6 +15,7 @@ void startPilha(Pilha *pilha){
     pilha->top = NULL;
 }
 
+
 void addPilha(int valor, Pilha *pilha){
     No *novo = (No*) malloc(sizeof(No));
     if(novo == NULL){
