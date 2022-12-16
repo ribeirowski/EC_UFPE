@@ -8,7 +8,7 @@
     <li><a href="https://github.com/ribeirowski/EC_UFPE/tree/main/IF672_AED"> 🧮 IF672 - Algoritmos e Estruturas de Dados</a></li>
   <li><a href="https://github.com/ribeirowski/IF675_SistemasDigitais"> 📟 IF675 - Sistemas Digitais</a></li>
   <li><a href="https://github.com/ribeirowski/IF677_InfraSoftware"> 🖥️ IF677 - Infraestrutura de Software</a></li>
-  <li><a href="https://github.com/ribeirowski/IF677_InfraSoftware"> 🤖 IF674 - Infraestrutura de Hardware</a></li>
+  <li><a href="https://github.com/ribeirowski/IF677_InfraHardware"> 🤖 IF674 - Infraestrutura de Hardware</a></li>
 </ul>
 <b>Extracurriculares:</b>
 <br>
