@@ -10,7 +10,7 @@
     <li><a href="https://github.com/ribeirowski/IF677_InfraSoftware"> 🖥️ IF677 - Infraestrutura de Software</a></li>
     <li><a href="https://github.com/ribeirowski/IF674_InfraHardware"> 🤖 IF674 - Infraestrutura de Hardware</a></li>
     <li><a href="https://github.com/ribeirowski/IF816_Metodos_Numericos_Computacionais"> 📱 IF816 - Métodos Numéricos Computacionais</a></li>
-    <li><a href="https://github.com/ribeirowski/IF685_GDI"> 📈 IF685 - Gerenciamento de Dados e Informação</a></li>
+    <li><a href="https://github.com/ribeirowski/Projeto-de-GDI"> 📈 IF685 - Gerenciamento de Dados e Informação</a></li>
     <li><a href="https://github.com/ribeirowski/ET586_Estatistica_e_Probabilidade_para_Computacao"> 📊 ET586 - Estatística e Probabilidade para Computação</a></li>
     <li><a href="https://github.com/ribeirowski/Fisica_Experimental_1"> 📋 FI021 - Física Experimental I</a></li>
 </ul>
