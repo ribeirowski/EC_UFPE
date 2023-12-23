@@ -13,11 +13,13 @@
     <li><a href="https://github.com/ribeirowski/Projeto-de-GDI"> 📈 IF685 - Gerenciamento de Dados e Informação</a></li>
     <li><a href="https://github.com/ribeirowski/ET586_Estatistica_e_Probabilidade_para_Computacao"> 📊 ET586 - Estatística e Probabilidade para Computação</a></li>
     <li><a href="https://github.com/ribeirowski/Fisica_Experimental_1"> 📋 FI021 - Física Experimental I</a></li>
+    <li><a href="https://github.com/ribeirowski/IF686_PLC">📝 IF686 - Paradigmas de Linguagens Computacionais</a></li>
+    <li><a href="https://github.com/ribeirowski/IF678_InfraCom">📡 IF678 - Infraestrutura de Comunicações</a></li>
 </ul>
 <b>Extracurriculares:</b>
 <br>
 <ul>
   <li><a href="https://github.com/ribeirowski/PET_VisaoComputacional"> 👁️‍🗨️ PET - Visão Computacional</a></li>
   <li><a href="https://github.com/ribeirowski/PET_Teste_de_Software_Automotivo"> 🚗 PET - Teste de Software Automotivo</a></li>
-  
+  <li><a href="https://github.com/ribeirowski/citi"> ❇️ CITi</a></li>
 </ul>
